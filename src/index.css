@@ -1,7 +1,14 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "BakbakOne";
+  src: url("./fonts/BakbakOne.ttf") format("truetype");
+
+  font-display: swap;
+}
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "BakbakOne", Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,9 +22,37 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+@theme {
+  --color-primary: #21e787;
+  --color-primaryShadow: #00954d;
+  --shadow-primary: 2px 2px 8px var(--color-primaryShadow);
+}
+
+@layer components {
+  .nav-wrapper {
+    @apply xl:px-[12%] xl:py-0;
+  }
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+  .flex-start {
+    @apply flex items-center justify-start;
+  }
+
+  .activeMenu {
+    left: 0;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #fff;
+    background-color: #040b11;
+  }
+}
+
+/* @media screen and (max-width: 1200px) {
+  .nav {
+    display: none;
+  }
+} */
