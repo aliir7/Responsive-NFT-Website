@@ -28,22 +28,31 @@
   --shadow-primary: 2px 2px 8px var(--color-primaryShadow);
 }
 
-@layer components {
+@layer utilities {
   .nav-wrapper {
-    @apply xl:px-[12%] xl:py-0;
+    @apply px-6 py-4 lg:px-[15%] lg:py-0;
   }
+
+  .section-wrapper {
+    @apply px-6 py-[90px] lg:px-[15%];
+  }
+
   .flex-center {
     @apply flex items-center justify-center;
   }
+
   .flex-start {
     @apply flex items-center justify-start;
   }
 
-  .activeMenu {
-    left: 0;
+  .flex-center-col {
+    @apply flex flex-col items-center justify-center;
+  }
+
+  .bg-img {
+    background-image: url("./assets/bs-section.jpg");
   }
 }
-
 @media (prefers-color-scheme: dark) {
   :root {
     color: #fff;
