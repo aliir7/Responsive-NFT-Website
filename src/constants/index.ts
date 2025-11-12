@@ -30,3 +30,13 @@ export const navbarMenu = [
     link: "#partners",
   },
 ];
+
+export const mockText = [
+  "NOXSTAR",
+  "NFTBOX",
+  "BOXNFT",
+  "NOXSTAR",
+  "NFTBOX",
+  "BOXNFT",
+  "NOXSTAR",
+];

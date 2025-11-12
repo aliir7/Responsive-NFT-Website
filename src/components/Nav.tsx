@@ -14,12 +14,14 @@ function Nav() {
   return (
     <nav className="fixed top-0 left-0 z-9999 flex w-full items-center justify-between bg-stone-950/80 px-4 py-3 backdrop-blur-md lg:h-[90px] lg:px-[10%]">
       {/* Logo */}
-      <a
-        href="#"
-        className="text-lg whitespace-nowrap text-white capitalize md:text-xl lg:text-3xl"
-      >
-        nox star
-      </a>
+      <h1>
+        <a
+          href="#"
+          className="text-lg whitespace-nowrap text-white capitalize md:text-xl lg:text-3xl"
+        >
+          nox star
+        </a>
+      </h1>
 
       {/* Links */}
       <ul
