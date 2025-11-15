@@ -40,3 +40,26 @@ export const mockText = [
   "BOXNFT",
   "NOXSTAR",
 ];
+
+export const cardData = [
+  {
+    id: 1,
+    title: "High Quality",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Consequuntur, commodi",
+  },
+  {
+    id: 2,
+    title: "Big Collection",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Consequuntur, commodi",
+  },
+  {
+    id: 3,
+    title: "Top Resource",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Consequuntur, commodi",
+  },
+  {
+    id: 4,
+    title: "Big Community",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Consequuntur, commodi",
+  },
+];

@@ -1,7 +1,7 @@
 import { RiLinksLine, RiWalletLine } from "react-icons/ri";
-import Button from "../UI/Button";
-import heroImg from "../../assets/hero-img.png";
-import element1 from "../../assets/element-star.png";
+import Button from "./UI/Button";
+import heroImg from "../assets/hero-img.png";
+import element1 from "../assets/element-star.png";
 import { ReactTyped } from "react-typed";
 
 function Header() {
