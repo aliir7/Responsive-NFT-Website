@@ -32,6 +32,7 @@ function About() {
             key={item.id}
             title={item.title}
             desc={item.desc}
+            count={item.id}
             className="hover:-translate-y-2 hover:scale-105"
           />
         ))}
