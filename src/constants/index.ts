@@ -10,6 +10,11 @@ import productImg9 from "../assets/product9.jpg";
 import productImg10 from "../assets/product10.jpg";
 import productImg11 from "../assets/product11.jpg";
 
+import workImg1 from "../assets/work-1.svg";
+import workImg2 from "../assets/work-2.svg";
+import workImg3 from "../assets/work-3.svg";
+import workImg4 from "../assets/work-4.svg";
+
 export const navbarMenu = [
   {
     id: 1,
@@ -132,5 +137,32 @@ export const productData = [
     id: 11,
     title: "Product11",
     image: productImg11,
+  },
+];
+
+export const workData = [
+  {
+    id: 1,
+    title: "Collect The Wallet",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, ullam.",
+    image: workImg1,
+  },
+  {
+    id: 2,
+    title: "Select The Quality",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, ullam.",
+    image: workImg2,
+  },
+  {
+    id: 3,
+    title: "Confirm The Transaction",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, ullam.",
+    image: workImg3,
+  },
+  {
+    id: 4,
+    title: "Receive Your NFT",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, ullam.",
+    image: workImg4,
   },
 ];

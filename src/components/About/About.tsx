@@ -5,7 +5,7 @@ function About() {
   return (
     <section className="section-wrapper flex-center-col">
       <h3 className="text-center text-4xl font-semibold">
-        <span className="text-primary mr-1">About</span>Us
+        <span className="text-primary mr-2">About</span>Us
       </h3>
 
       {/* متن توضیح */}
