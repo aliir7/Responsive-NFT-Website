@@ -15,6 +15,11 @@ import workImg2 from "../assets/work-2.svg";
 import workImg3 from "../assets/work-3.svg";
 import workImg4 from "../assets/work-4.svg";
 
+import teamImg1 from "../assets/team-1.jpg";
+import teamImg2 from "../assets/team-2.jpg";
+import teamImg3 from "../assets/team-3.jpg";
+import teamImg4 from "../assets/team-4.jpg";
+
 export const navbarMenu = [
   {
     id: 1,
@@ -164,5 +169,33 @@ export const workData = [
     title: "Receive Your NFT",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam, ullam.",
     image: workImg4,
+  },
+];
+
+// team data
+export const teamData = [
+  {
+    id: 1,
+    name: "Jonathan Josh",
+    position: "Founder",
+    image: teamImg1,
+  },
+  {
+    id: 2,
+    name: "Emily Clark",
+    position: "Co-Founder",
+    image: teamImg2,
+  },
+  {
+    id: 3,
+    name: "Joseph Josh",
+    position: "Head-Chef",
+    image: teamImg3,
+  },
+  {
+    id: 4,
+    name: "John Doe",
+    position: "Manager",
+    image: teamImg4,
   },
 ];

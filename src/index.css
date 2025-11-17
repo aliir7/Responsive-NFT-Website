@@ -29,6 +29,7 @@
   --color-darkGradient: #01532b78;
   --shadow-primary: 2px 2px 8px var(--color-primaryShadow);
   --shadow-secondary: 0 0 10px rgba(255, 255, 255, 0.5);
+  --shadow-social: 0 4px 15px var(--color-white);
   --text-shadow-lg: 0px 5px 8px rgba(255, 255, 255, 0.5);
   --radius-50: 50%;
   --animate-rightLeft: right_left_move 2s infinite linear alternate;

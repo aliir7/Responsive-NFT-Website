@@ -10,15 +10,13 @@ function WorkCard({ title, desc, imgSrc }: Props) {
   return (
     <div className="group bg-secondary hover:shadow-secondary hover:before:text-primary relative z-1 flex h-auto w-full flex-col justify-start p-5 transition-all duration-600">
       <Plus />
-      <div className="space-y-2">
+      <div className="space-y-1">
         <img
           src={imgSrc}
           alt={title}
-          className="mb-4 object-cover pb-2"
-          width={50}
-          height={50}
+          className="mb-4 h-12 w-12 object-contain"
         />
-        <h3 className="mt-4 text-xl font-normal text-nowrap">{title}</h3>
+        <h3 className="mt-4 truncate text-xl font-normal">{title}</h3>
         <p className="font-verdana text-sm leading-5 text-white/50">{desc}</p>
       </div>
     </div>
