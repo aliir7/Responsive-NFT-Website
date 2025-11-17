@@ -1,6 +1,7 @@
 import About from "./components/About/About";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
+import Partner from "./components/Partner";
 import Products from "./components/Products/Products";
 import Slider from "./components/Slider";
 import Team from "./components/Team/Team";
@@ -16,6 +17,7 @@ function App() {
       <Products />
       <Work />
       <Team />
+      <Partner />
     </main>
   );
 }

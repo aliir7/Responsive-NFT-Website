@@ -62,6 +62,10 @@
     background-image: url("./assets/bs-section.jpg");
   }
 
+  .bg-overlay {
+    background: linear-gradient(270deg, #040b11, transparent);
+  }
+
   .nav-swiper {
     --swiper-navigation-color: #21e787; /* رنگ پیش‌فرض */
     --swiper-navigation-size: 40px; /* اندازه فلش */

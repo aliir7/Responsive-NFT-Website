@@ -20,6 +20,17 @@ import teamImg2 from "../assets/team-2.jpg";
 import teamImg3 from "../assets/team-3.jpg";
 import teamImg4 from "../assets/team-4.jpg";
 
+import partnerImg1 from "../assets/partner-1.png";
+import partnerImg2 from "../assets/partner-2.png";
+import partnerImg3 from "../assets/partner-3.png";
+import partnerImg4 from "../assets/partner-4.png";
+import partnerImg5 from "../assets/partner-5.png";
+import partnerImg6 from "../assets/partner-6.png";
+import partnerImg7 from "../assets/partner-7.png";
+import partnerImg8 from "../assets/partner-8.png";
+import partnerImg9 from "../assets/partner-10.png";
+import partnerImg10 from "../assets/partner-11.png";
+
 export const navbarMenu = [
   {
     id: 1,
@@ -198,4 +209,17 @@ export const teamData = [
     position: "Manager",
     image: teamImg4,
   },
+];
+
+export const partnerImages = [
+  partnerImg1,
+  partnerImg2,
+  partnerImg3,
+  partnerImg4,
+  partnerImg5,
+  partnerImg6,
+  partnerImg7,
+  partnerImg8,
+  partnerImg9,
+  partnerImg10,
 ];
