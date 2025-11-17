@@ -61,7 +61,18 @@
   .bg-img {
     background-image: url("./assets/bs-section.jpg");
   }
+
+  .nav-swiper {
+    --swiper-navigation-color: #21e787; /* رنگ پیش‌فرض */
+    --swiper-navigation-size: 40px; /* اندازه فلش */
+  }
+
+  /* اگر می‌خوای حالت hover روی کل اسلایدر رنگ فلش سفید بشه */
+  .nav-swiper:hover {
+    --swiper-navigation-color: #ffffff;
+  }
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
     color: #fff;

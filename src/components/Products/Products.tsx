@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
-import { Autoplay, FreeMode } from "swiper/modules";
+import { Autoplay, FreeMode, Navigation } from "swiper/modules";
 import { productData } from "../../constants";
 import ProductsCard from "./ProductsCard";
 
@@ -8,14 +8,21 @@ function Products() {
   return (
     <section className="mt-12.5 flex w-full flex-col gap-7.5 px-0 py-12.5">
       <Swiper
-        modules={[Autoplay, FreeMode]}
+        modules={[Autoplay, FreeMode, Navigation]}
         loop={true}
         spaceBetween={24}
         freeMode={true}
         pagination={false}
-        focusableElements="center"
         allowTouchMove={false}
         draggable={true}
+        style={
+          {
+            // CSS variables for Swiper
+            "--swiper-navigation-color": "#21e787",
+            "--swiper-navigation-size": "40px",
+          } as React.CSSProperties
+        }
+        navigation={true}
         speed={4000}
         autoplay={{
           delay: 0,
@@ -39,7 +46,7 @@ function Products() {
             slidesPerView: 1,
           },
         }}
-        className="w-full"
+        className="nav-swiper w-full"
       >
         {productData.map((item) => (
           <SwiperSlide key={item.id}>
@@ -48,7 +55,7 @@ function Products() {
         ))}
       </Swiper>
       <Swiper
-        modules={[Autoplay, FreeMode]}
+        modules={[Autoplay, FreeMode, Navigation]}
         loop={true}
         spaceBetween={24}
         dir="rtl"
@@ -56,6 +63,15 @@ function Products() {
         focusableElements="center"
         allowTouchMove={false}
         draggable={true}
+        className="nav-swiper w-full"
+        navigation={true}
+        style={
+          {
+            // CSS variables for Swiper
+            "--swiper-navigation-color": "#21e787",
+            "--swiper-navigation-size": "40px",
+          } as React.CSSProperties
+        }
         pagination={false}
         speed={4000}
         autoplay={{
@@ -80,7 +96,6 @@ function Products() {
             slidesPerView: 1,
           },
         }}
-        className="w-full"
       >
         {productData.map((item) => (
           <SwiperSlide key={item.id}>
