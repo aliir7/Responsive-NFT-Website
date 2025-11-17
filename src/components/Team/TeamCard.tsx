@@ -18,7 +18,7 @@ function TeamCard({ name, position, imgSrc }: Props) {
       <Plus />
       <div className="flex-col-center space-y-1.5">
         <img src={imgSrc} alt={name} className="mx-auto my-2 w-[80%]" />
-        <h3 className="font-verdana text-center text-lg font-light lg:text-2xl">
+        <h3 className="font-verdana text-center text-lg font-light lg:text-xl">
           {name}
           <small className="text-primary relative block text-center text-sm lg:text-lg">
             {position}
