@@ -1,4 +1,6 @@
 import About from "./components/About/About";
+
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
 import Partner from "./components/Partner";
@@ -9,7 +11,7 @@ import Work from "./components/Work/Work";
 
 function App() {
   return (
-    <main>
+    <main className="scroll-smooth">
       <Nav />
       <Header />
       <Slider />
@@ -18,6 +20,7 @@ function App() {
       <Work />
       <Team />
       <Partner />
+      <Footer />
     </main>
   );
 }

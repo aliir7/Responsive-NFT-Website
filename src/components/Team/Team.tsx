@@ -7,9 +7,9 @@ import { Autoplay, FreeMode, Navigation } from "swiper/modules";
 function Team() {
   return (
     <section className="section-wrapper flex-center-col">
-      <h3 className="text-center text-4xl font-semibold">
+      <h2 className="text-center text-4xl font-semibold">
         Our <span className="text-primary mr-2">Team</span>
-      </h3>
+      </h2>
 
       {/* Swiper */}
       <div className="mt-14 w-full px-4 lg:mt-20">

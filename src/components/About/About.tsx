@@ -4,9 +4,9 @@ import AboutCard from "./AboutCard";
 function About() {
   return (
     <section className="section-wrapper flex-center-col">
-      <h3 className="text-center text-4xl font-semibold">
+      <h2 className="text-center text-4xl font-semibold">
         <span className="text-primary mr-2">About</span>Us
-      </h3>
+      </h2>
 
       {/* متن توضیح */}
       <p className="font-verdana my-5 w-full max-w-[700px] px-4 text-center text-lg leading-8 text-stone-300 sm:text-xl sm:leading-10">

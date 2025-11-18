@@ -17,7 +17,7 @@ function Nav() {
       <h1>
         <a
           href="#"
-          className="text-lg whitespace-nowrap text-white capitalize md:text-xl lg:text-3xl"
+          className="text-2xl whitespace-nowrap text-white capitalize lg:text-3xl"
         >
           nox star
         </a>
@@ -42,10 +42,20 @@ function Nav() {
       {/* Buttons + Menu Icon */}
       <div className="flex items-center gap-2">
         {/* دکمه‌ها در موبایل سایز sm */}
-        <Button size="sm" variant="primary" icon={<RiDiscordLine />}>
+        <Button
+          size="sm"
+          variant="primary"
+          icon={<RiDiscordLine />}
+          className="hidden! lg:flex!"
+        >
           Discord
         </Button>
-        <Button size="sm" variant="outline" icon={<RiWalletLine />}>
+        <Button
+          size="sm"
+          variant="outline"
+          icon={<RiWalletLine />}
+          className="hidden! lg:flex!"
+        >
           Contacts
         </Button>
 
