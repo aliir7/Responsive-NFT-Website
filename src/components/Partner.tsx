@@ -6,8 +6,8 @@ import { partnerImages } from "../constants";
 function Partner() {
   return (
     <section className="section-wrapper relative w-full">
-      <span className="bg-overlay absolute top-1/4 left-[5%] z-2 h-1/2 w-[10%] rotate-180 md:left-0 lg:left-[15%]" />
-      <span className="bg-overlay absolute top-1/4 right-[5%] z-2 h-1/2 w-[10%] md:right-0 lg:right-[15%]" />
+      <span className="bg-overlay absolute top-1/4 left-0 z-2 h-1/2 w-[15%] rotate-180 lg:left-[15%] lg:w-[10%]" />
+      <span className="bg-overlay absolute top-1/4 right-0 z-2 h-1/2 w-[15%] lg:right-[15%] lg:w-[10%]" />
       <div>
         {/* slider 1 */}
         <Swiper
